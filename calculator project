@@ -24,16 +24,16 @@ while True:
             print("Invalid input. Please enter a number.")
             continue
 
-        if choice == '1':
+        if choice == 'a':
             print(num1, "+", num2, "=", add(num1, num2))
 
-        elif choice == '2':
+        elif choice == 'b':
             print(num1, "-", num2, "=", subtract(num1, num2))
 
-        elif choice == '3':
+        elif choice == 'c':
             print(num1, "*", num2, "=", multiply(num1, num2))
 
-        elif choice == '4':
+        elif choice == 'd':
             print(num1, "/", num2, "=", divide(num1, num2))
 
         next_calculation = input("Let's do next calculation? (yes/no): ")
