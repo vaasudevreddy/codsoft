@@ -1,0 +1,237 @@
+**********************HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <h1>Vasudeva Reddy</h1>
+            <p>Web Developer & Designer</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="WhatsApp Image vasu.jpg" alt="Vasu">
+            <p>Hello! I am Vasu Dev, a passionate web developer with experience in creating dynamic and responsive websites. I love coding and am always eager to learn new technologies and improve my skills.</p>
+        </div>
+    </section>
+<hr>
+    <section id="passions-hobbies">
+        <div class="container">
+            <h2>Passions & Hobbies</h2>
+            <div class="hobby-item">
+                <img src="photography.jpeg" alt="Hobby 1">
+                <h3>Photography</h3>
+                <p>I enjoy capturing moments through my lens, exploring nature, and experimenting with different photography techniques.</p>
+            </div>
+            <div class="hobby-item">
+                <img src="travelling.jpeg" alt="Hobby 2">
+                <h3>Traveling</h3>
+                <p>Traveling allows me to experience new cultures, meet interesting people, and broaden my horizons.</p>
+            </div>
+        </div>
+    </section>
+<hr>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <img src="project 1.jpeg" alt="Project 1">
+                <h3>e-commerce website with recommendation system</h3>
+                <p>Most of us can relate to the specific case, when Netflix knows which films we would like to watch next, and we spend the next 3 hours watching Netflix movies. Or a case, when we spend way too much money online shopping, even though we wanted to buy just one thing. Or a moment, when we start listening to songs on YouTube, and the playlist takes us to a very cool Icelandic band we instantly like. So, the question arises – how have these machines become so smart, so that they magically know what we want? The answer is – all the magic happening behind the scenes is done by machine learning, or more specifically, recommendation systems that use algorithms, to find similar items and similar customers, based on their behaviour, and recommend items which the specific customer should like.</p>
+            </div>
+            <div class="project-item">
+                <img src="project 2.png" alt="Project 2">
+                <h3>Speech recognition</h3>
+                <p>Speech recognition, also called automatic speech recognition (ASR), computer speech recognition, or speech-to-text, is a form of artificial intelligence and refers to the ability of a computer or machine to interpret spoken words and translate them into text. Often confused with voice recognition, which identifies the speaker, rather than what they say, speech recognition software turns human speech into written language or computer commands.</p>
+            </div>
+        </div>
+    </section>
+<hr>
+    <section id="achievements-certifications">
+        <div class="container">
+            <img src="codsoft.jpeg" alt="Codsoft">
+            <h2>Achievements & Certifications</h2>
+            <div class="achievement-item">
+                <h3>Python Programming </h3>
+                <p>Awarded 'Python Web Developer' at  CodSoft for exceptional performance and dedication in 2024.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: nagamvasudevareddy@gmail.com</p>
+            <p>Phone: 7981849933</p>
+            <p><a href="resume.pdf" download>Download my resume</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Vasu Dev</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+*****************CSS
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+#about {
+    background-color: pink;
+    padding: 4rem 0;
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+#about p {
+    margin-top: 1rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#passions-hobbies {
+    padding: 4rem 0;
+    background-color: grey;
+
+}
+
+#passions-hobbies .hobby-item {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#passions-hobbies .hobby-item img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+#passions-hobbies .hobby-item h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+#passions-hobbies .hobby-item p {
+    margin-top: 0.5rem;
+}
+#projects {
+    padding: 4rem 0;
+    background-color: aquamarine;
+}
+
+#projects .project-item {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#projects .project-item img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+#projects .project-item h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+#projects .project-item p {
+    margin-top: 0.5rem;
+}
+#achievements-certifications {
+    padding: 4rem 0;
+    background-color: blanchedalmond;
+}
+
+#achievements-certifications .achievement-item {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#achievements-certifications .achievement-item h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+#achievements-certifications .achievement-item p {
+    margin-top: 0.5rem;
+}
+
+#contact {
+    background-color: #f4f4f4;
+    padding: 4rem 0;
+}
+
+#contact p {
+    margin-top: 1rem;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#contact a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
